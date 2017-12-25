@@ -1,0 +1,10 @@
+Project of ME620140 
+
+In this final project, we will work out a point-to-point communication system which consists of a transmit node and a receive node. They are designed to work in the 2.4GHz frequency band. The Tx power is limited to be 20dBm. The noise figure is assumed to be 3dB. Both transmit and receive antennas are omnidirectional. Design the modulation and the demodulation module such that the system can achieve 1Mbps rate for a pathloss of 120dB with bit error rate less than 1e-3 . First consider an AWGN channel with no ISI. Then consider an ISI channel consisting of two taps with equal gain and the time delay between the two taps is 2 microsec.
+
+ 
+
+You are free to choose the bandwidth, as the bandwidth is immediately relevant to the data rate and the noise level.
+You may consider BPSK, QPSK, FSK, or even MSK. (you get 5 extra credits if use MSK )
+You may consider using more than one receiving antennas
+You are free to use error control coding, e.g., the convolutional code.
